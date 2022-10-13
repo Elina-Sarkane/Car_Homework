@@ -30,7 +30,6 @@ public class Car {
     }
 
     public void drive(double drive){
-        //drive = fuelEfficiency + drive;
         fuelLevel = fuelLevel - (drive / fuelEfficiency);
     }
 }
